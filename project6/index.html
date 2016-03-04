@@ -1,0 +1,26 @@
+<html> 
+<head>
+ <title>City Finder</title> 
+ <script src="https://code.jquery.com/jquery-1.10.2.js">
+ </script>
+ 
+ <script> 
+ $(document).ready(function() {
+ $( "#cityfield" ).keyup(function() { 
+ alert( "Handler for .keyup() called." );
+ });
+ });
+ </script>
+
+ </head>
+ <body> 
+ <form> Enter A Utah City: <input type="text" id="cityfield" value=""><br>
+ Suggestion: <span id="txtHint">Empty</span> 
+ <input id="button" type="submit" value="Submit"> 
+ </form>
+
+ <p>City</p> 
+ <textarea id="dispcity">No City</textarea>
+ <p>Current Weather</p> <div id="weather">No weather</div> 
+ </body>
+ </html>

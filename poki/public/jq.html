@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="./stylesheets/style.css">
+  <meta charset="utf-8">
+  <title>Node api tutorial</title>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script>
+$( document ).ready(function() {
+    var pokiURL = 'pokemon';
+	$.ajax({
+	  url: pokiURL,
+	  success: function( data ) {
+          console.log(data);
+		  $.each(data,function(element) {
+		    var newlist = "<li class='pokemon'><h1>";
+		    newlist+=data[element].name
+            newlist+= "</h1> <img class='avatar' src='"
+            newlist+=data[element].avatarUrl
+            newlist+="' ></li>";
+		    $("#list" ).append(newlist);
+          });
+	  }
+	});
+	
+	
+ // var politics = "https://zlzlap7j50.execute-api.us-east-1.amazonaws.com/prod";
+ var politics = "politics";
+$.ajax({
+  url: politics,
+  success: function( data ) {
+	  console.log(data);
+  }
+});
+	
+	
+
+	
+});
+
+
+</script>
+
+<script> 
+	function handleIt() {
+	  var formData = {name:$("#pokiName").val(),avatarUrl:$("#pokiUrl").val()};
+	  console.log(formData);
+	  var pokiURL = 'pokemon';
+	  $.ajax({
+		  url: pokiURL,
+		  type:"POST",
+		  data:formData,
+		  success: function( data ) {
+			  console.log("Response");
+			  console.log(data);
+		  }
+	  });
+	}
+</script>
+
+</head>
+<body>
+
+  <div id='poki'>
+    <ul id='list' class='list center stretch'>
+    </ul>
+
+  </div>
+  
+  <h1> Enter A New Poki</h1>
+<form id="newPoki" action="javascript:handleIt()">
+  Name: <input type="text" id="pokiName" value=""><br>
+  Url: <input type="url" id="pokiUrl" value=""><br>
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

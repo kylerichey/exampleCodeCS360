@@ -1,0 +1,165 @@
+nohup: ignoring input
+
+The port is 3000
+The Path is /home/bitnami/exampleCode/project2/test/
+The path is valid
+
+Starting server
+Making socket
+Binding to port 3000
+
+Making a listen queue of 5 elements
+Waiting for a connection
+
+Got a connection from 1D74BB80 (3880)
+Absolute path:/home/bitnami/exampleCode/project2/test//wes.html
+File exists, sending to client
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1D74BB80 (4741)
+Absolute path:/home/bitnami/exampleCode/project2/test//test4.jpg
+File exists, sending to client
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1D74BB80 (43152)
+Absolute path:/home/bitnami/exampleCode/project2/test//test4.jpg
+File exists, sending to client
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1774BB80 (23410)
+Absolute path:/home/bitnami/exampleCode/project2/test//
+/home/bitnami/exampleCode/project2/test//index.html
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1774BB80 (44525)
+Favicon request, Sending 404
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1774BB80 (7048)
+Absolute path:/home/bitnami/exampleCode/project2/test//test3.gif
+File exists, sending to client
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1774BB80 (9046)
+Absolute path:/home/bitnami/exampleCode/project2/test//test4.jpg
+File exists, sending to client
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1774BB80 (21632)
+Absolute path:/home/bitnami/exampleCode/project2/test//3
+File exists, sending to client
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1774BB80 (3385)
+Absolute path:/home/bitnami/exampleCode/project2/test//wes.html
+File exists, sending to client
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1D74BB80 (19538)
+Absolute path:/home/bitnami/exampleCode/project2/test//
+/home/bitnami/exampleCode/project2/test//index.html
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1774BB80 (46202)
+Absolute path:/home/bitnami/exampleCode/project2/test//test1.html
+File exists, sending to client
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1774BB80 (41196)
+Absolute path:/home/bitnami/exampleCode/project2/test//di
+/home/bitnami/exampleCode/project2/test//diindex.html
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1774BB80 (50088)
+Absolute path:/home/bitnami/exampleCode/project2/test//1
+File exists, sending to client
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1774BB80 (48528)
+Absolute path:/home/bitnami/exampleCode/project2/test//test2.txt
+File exists, sending to client
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1774BB80 (45719)
+Absolute path:/home/bitnami/exampleCode/project2/test//1
+File exists, sending to client
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1774BB80 (9201)
+Absolute path:/home/bitnami/exampleCode/project2/test//p
+/home/bitnami/exampleCode/project2/test//pindex.html
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1D74BB80 (42177)
+Absolute path:/home/bitnami/exampleCode/project2/test//test2.txt
+File exists, sending to client
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1D74BB80 (43149)
+Invalid Get, Dropping Connection
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1774BB80 (23415)
+Absolute path:/home/bitnami/exampleCode/project2/test//awoeijfowej
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1774BB80 (19919)
+Absolute path:/home/bitnami/exampleCode/project2/test//
+/home/bitnami/exampleCode/project2/test//index.html
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1774BB80 (42813)
+Absolute path:/home/bitnami/exampleCode/project2/test//
+/home/bitnami/exampleCode/project2/test//index.html
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1774BB80 (24331)
+Absolute path:/home/bitnami/exampleCode/project2/test//
+/home/bitnami/exampleCode/project2/test//index.html
+
+Closing the socket
+Waiting for a connection
+
+Got a conn
